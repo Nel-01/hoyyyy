@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heart-container" id="heartContainer"></div>
+    <div class="container">
+        <h1 id="question">Would you like to go out with me for a date?</h1>
+        <button id="yesButton">Yes</button>
+        <button id="noButton">No</button>
+        <div id="giftContainer" style="display: none;">
+            <div class="images">
+                <div class="gift-wrapper">
+                    <img src="https://media2.giphy.com/media/10tTOmhZzHMoW4/200.webp?cid=ecf05e47myyyqkmqdi55pu1n4uvbkuij2vucswot8c98rqay&ep=v1_gifs_search&rid=200.webp&ct=g" alt="Gift" class="gift" data-name="Gift">
+                    <h2>YEHEEEYYYY! Dont Go Anywhere</h2>
+                </div>
+            </div>
+            <button id="submitGiftButton">Click Me!</button>
+        </div>
+        
+        <div id="dateContainer" style="display: none;">
+            <h2>When are you free?</h2>
+            <input type="date" id="dateInput">
+            <button id="submitDateButton">Submit</button>
+        </div>
+        
+        <div id="destinationContainer" style="display: none;">
+            <h2>Where would you like to go?</h2>
+            <div class="images">
+                <div class="destination-wrapper">
+                    <img src="arcadedate.jpg" alt="Arcade " class="destination" data-name="Arcade ">
+                    <p>Arcade </p>
+                </div>
+                <div class="destination-wrapper">
+                    <img src="cine.jpg" alt="Cine " class="destination" data-name="Cine ">
+                    <p>Cine</p>
+                </div>
+                <div class="destination-wrapper">
+                    <img src="naturetrip.jpg" alt="Nature Trip" class="destination" data-name="Nature Trip">
+                    <p>Nature Trip </p>
+                </div>
+                <div class="destination-wrapper">
+                    <img src="park.jpg" alt="Park " class="destination" data-name="Park ">
+                    <p>Park</p>
+                </div>
+                <div class="destination-wrapper">
+                    <img src="skyranch.jpg" alt="Skyranch" class="destination" data-name="Skyranch">
+                    <p>Rides</p>
+                </div>
+                <div class="destination-wrapper">
+                    <img src="strolldate.webp" alt="Stroll" class="destination" data-name="Stroll">
+                    <p>Stroll</p>
+                </div>
+            </div>
+            <button id="submitPlaceButton">Submit</button>
+        </div>
+
+        <div id="foodContainer" style="display: none;">
+            <h2>What would you like to eat?</h2>
+            <div class="images">
+                <div class="food-wrapper">
+                    <img src="inasal.jpg" alt="Inasal" class="food" data-name="Inasal">
+                    <p>Inasal</p>
+                </div>
+                <div class="food-wrapper">
+                    <img src="jabee.jpg" alt="Jollibee" class="food" data-name="Jollibee">
+                    <p>Jollibee</p>
+                </div>
+                <div class="food-wrapper">
+                    <img src="pizza.jpg" alt="Pizza" class="food" data-name="Pizza">
+                    <p>Pizza</p>
+                </div>
+                <div class="food-wrapper">
+                    <img src="burger.jpg" alt="Burger and fries" class="food" data-name="Burger and fries">
+                    <p>Burger & Fries</p>
+                </div>
+                <div class="food-wrapper">
+                    <img src="unliwings.jpg" alt="Unli Wings" class="food" data-name="Unli Wings">
+                    <p>Unli Wings</p>
+                </div>
+                <div class="food-wrapper">
+                    <img src="samgy.jpg" alt="Samgy" class="food" data-name="Samgy">
+                    <p>Samgy</p>
+                </div>
+            </div>
+            <button id="submitFoodButton">Submit</button>
+        </div>
+
+        <div id="drinksContainer" style="display: none;">
+            <h2>What would you like to drink?</h2>
+            <div class="images">
+                <div class="drink-wrapper">
+                    <img src="coffe.jpg" alt="Coffee" class="drink" data-name="Coffee">
+                    <p>Coffee</p>
+                </div>
+                <div class="drink-wrapper">
+                    <img src="milktea.jpg" alt="Milk Tea" class="drink" data-name="Milk Tea">
+                    <p>Milk Tea</p>
+                </div>
+                <div class="drink-wrapper">
+                    <img src="beer.jpg" alt="Beer" class="drink" data-name="Beer">
+                    <p>Beer</p>
+                </div>
+                <div class="drink-wrapper">
+                    <img src="bukoshake.jpg" alt="Buko Shake" class="drink" data-name="Buko Shake">
+                    <p>Buko Shake</p>
+                </div>
+                <div class="drink-wrapper">
+                    <img src="iced-tea.webp" alt="Ice Tea" class="drink" data-name="Ice Tea">
+                    <p>Ice Tea</p>
+                </div>
+                <div class="drink-wrapper">
+                    <img src="softdrinks.jpg" alt="Soft Drinks" class="drink" data-name="Soft Drinks">
+                    <p>Soft Drinks</p>
+                </div>
+            </div>
+            <button id="submitDrinkButton">Submit</button>
+        </div>
+        <div id="newGifContainer" style="display: none;" class="gif-container">
+            <img src="https://media1.giphy.com/media/iGqP4DYXe4zVJbCY5N/giphy.webp?cid=ecf05e47qdjhfhfeqnqlzh5dsfnbvz7ts4818i4at43ijtm3&ep=v1_gifs_search&rid=giphy.webp&ct=g" alt="New GIF" class="new-gif">
+        </div>
+        <div id="summaryContainer" style="display: none;">
+            <h1>See you soon</h1>
+            <p id="summaryText"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
